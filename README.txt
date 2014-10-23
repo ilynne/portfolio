@@ -1,0 +1,1 @@
+This project is for a front-end class. I am using BBEdit to create the static pages. BBEdit uses comments to indicate persistent includes.
