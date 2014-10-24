@@ -7,5 +7,6 @@ header { border-bottom: 2px solid lightgrey; padding-bottom: 1rem;}
 header img {max-width: 30rem; display: inline;}
 header h1 {display: inline;}
 header nav {display: inline;}
-header nav ul, header nav ul li {display: inline; list-style: none;}
+nav ul, nav ul li {display: inline; list-style: none; padding-left: 0rem;}
 section.main h1 {font-size: 2rem;}
+section.main img {max-width: 60%;}
