@@ -1,0 +1,11 @@
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    margin: 0rem;
+}
+section.main, footer { margin: 2rem;}
+header { border-bottom: 2px solid lightgrey; padding-bottom: 1rem;}
+header img {max-width: 30rem; display: inline;}
+header h1 {display: inline;}
+header nav {display: inline;}
+header nav ul, header nav ul li {display: inline; list-style: none;}
+section.main h1 {font-size: 2rem;}
