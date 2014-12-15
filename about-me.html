@@ -5,24 +5,53 @@
   <title>About Me</title>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-  <link href="styles/first-stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="http://cdn.foundation5.zurb.com/foundation.css" rel="stylesheet" type="text/css" />
+  <link href="css/lynne-foundation.css" rel="stylesheet" type="text/css" />
+  <script src="js/vendor/modernizr.js"></script>
   </head>
   
   <body class="about-me">
     <header>
-      <img alt="Lynne in a pink hat" src="images/lynne-tiara.png" />
-      <nav>
-        <ul>
-          <li><a href="projects.html">Projects:</a></li>
-          <li><a href="projects/felted-sheep.html">Felted Sheep</a></li>
-          <li><a href="projects/another-felted-sheep.html">Another Felted Sheep</a></li>
-          <li><a href="projects/felted-chicken.html">Felted Chicken</a></li>
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="index.html">LYNNE COONEY</a></h1>
+          </li>
+          <li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+          </li>
+          <li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+          </li>
         </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="divider"></li>
+            <li>
+              <a href="resume/index.html">Resume</a>
+            </li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+              <a href="projects.html">Projects</a>
+              <ul class="dropdown">
+                  <li><a href="projects/felted-sheep.html">Felted Sheep</a></li>
+                  <li><a href="projects/another-felted-sheep.html">Another Felted Sheep</a></li>
+                  <li><a href="projects/felted-chicken.html">Felted Chicken</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
       </nav>
+
     </header>
-    <section class="main">
-      <h1>About Me</h1>
-      <article>
+
+    <div class="row">
+      <div class="medium-9 columns">
+        <section class="main">
+          <h1>About Me</h1>
+                <article>
         <h2>Templates are King</h2>
         <p>I never ever produce websites that are difficult to maintain. Why would anyone? One of the first problems that HTML threw at me in 1994 was the lack of any ability to include text files. Boilerplate content, such as headers and footers, needed to be copied and pasted into each page. If you added, removed or renamed a link, you were in for a tedious afternoon.</p>
 
@@ -39,65 +68,74 @@
         </thead>
         <tbody>
           <tr>
-            <td>Dolorem</td>
-            <td class="yes">yes</td>
-            <td class="currency-usd expensive">$623.27</td>
-          </tr>
-          <tr>
-            <td>Nesciunt</td>
+            <td>Ad</td>
             <td class="no">no</td>
-            <td class="currency-usd expensive">$520.22</td>
+            <td class="currency-usd expensive">$879.00</td>
           </tr>
           <tr>
-            <td>Pariatur</td>
-            <td class="yes">yes</td>
-            <td class="currency-usd expensive">$873.23</td>
-          </tr>
-          <tr>
-            <td>Dolores</td>
-            <td class="yes">yes</td>
-            <td class="currency-usd expensive">$771.00</td>
-          </tr>
-          <tr>
-            <td>Omnis</td>
+            <td>Voluptates</td>
             <td class="no">no</td>
-            <td class="currency-usd expensive">$529.79</td>
+            <td class="currency-usd expensive">$687.71</td>
           </tr>
           <tr>
-            <td>Ipsum</td>
+            <td>Quod</td>
+            <td class="no">no</td>
+            <td class="currency-usd cheap">$270.45</td>
+          </tr>
+          <tr>
+            <td>Voluptas</td>
             <td class="yes">yes</td>
-            <td class="currency-usd expensive">$850.27</td>
+            <td class="currency-usd expensive">$811.55</td>
           </tr>
           <tr>
-            <td>Magnam</td>
-            <td class="yes">yes</td>
-            <td class="currency-usd cheap">$414.38</td>
-          </tr>
-          <tr>
-            <td>Rerum</td>
-            <td class="yes">yes</td>
-            <td class="currency-usd expensive">$722.82</td>
-          </tr>
-          <tr>
-            <td>Dolores</td>
+            <td>Dolor</td>
             <td class="maybe">maybe</td>
-            <td class="currency-usd expensive">$533.47</td>
+            <td class="currency-usd expensive">$990.08</td>
           </tr>
           <tr>
-            <td>Quisquam</td>
+            <td>Nostrum</td>
+            <td class="maybe">maybe</td>
+            <td class="currency-usd cheap">$213.80</td>
+          </tr>
+          <tr>
+            <td>Aut</td>
             <td class="yes">yes</td>
-            <td class="currency-usd cheap">$349.81</td>
+            <td class="currency-usd cheap">$491.29</td>
+          </tr>
+          <tr>
+            <td>Sed</td>
+            <td class="maybe">maybe</td>
+            <td class="currency-usd cheap">$170.16</td>
+          </tr>
+          <tr>
+            <td>Expedita</td>
+            <td class="maybe">maybe</td>
+            <td class="currency-usd expensive">$793.96</td>
+          </tr>
+          <tr>
+            <td>Sunt</td>
+            <td class="maybe">maybe</td>
+            <td class="currency-usd cheap">$167.99</td>
           </tr>
         </tbody>
       </table>
-    </section>
+        </section>
+      </div>
+
+      <div class="medium-3 columns">
+        <div class="panel">
+          <figure>
+            <img alt="Lynne in a pink hat" src="images/lynne-tiara.png" />
+            <figcaption>Every day is tiara day.</figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
 
     <footer>
       <nav>
-        <ul>
-          <li><a href="index.html">LYNNE COONEY</a></li>
-          <li><a href="about-me.html">ABOUT ME</a></li>
-          <li><a href="projects.html">PROJECTS</a></li>
+        <ul class="inline-list">
           <li>
             <a href="http://facebook.com"><span class="fa-stack fa-2x">
               <i class="fa fa-circle fa-stack-2x"></i>
@@ -105,19 +143,24 @@
             </span></a>
           </li>
           <li>
-            <a href="http://github.com"><span class="fa-stack fa-2x">
+            <a href="http://github.com/ilynne"><span class="fa-stack fa-2x">
               <i class="fa fa-github fa-stack-2x"></i>
             </span></a>
           </li>
           <li>
-            <a href="http://linkedin.com"><span class="fa-stack fa-2x">
+            <a href="http://linkedin.com/in/lynnety"><span class="fa-stack fa-2x">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
             </span></a>
           </li>
         </ul>
       </nav>
-      <p class="copyright">&copy;<time datetime="2014">2014</time> Lynne Cooney. Last updated <time datetime="2014-11-11">11 November 2014</time>.</p>
+      <p class="copyright">&copy;<time datetime="2014">2014</time> Lynne Cooney. Last updated <time datetime="2014-12-14">14 December 2014</time>.</p>
     </footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
