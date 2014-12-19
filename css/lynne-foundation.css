@@ -108,3 +108,11 @@ figure {
   background-color: transparent;
   border-color: #f1f1f1;
 }
+
+code {
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
