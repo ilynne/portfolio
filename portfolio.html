@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>About Me</title>
+  <title>Portfolio</title>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
@@ -11,13 +11,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   
-  <body class="index">
+  <body class="portfolio">
     <header>
       <nav>
         <ul>
-          <li class='active'><a href="index.html">LYNNE COONEY</a></li>
+          <li ><a href="index.html">LYNNE COONEY</a></li>
           <li ><a href="resume/index.html">Resume</a></li>
-          <li ><a href="portfolio.html">Portfolio</a></li>
+          <li class='active'><a href="portfolio.html">Portfolio</a></li>
           <li ><a href="colophon.html">Colophon</a></li>
           <li><a href="http://github.com/ilynne"><i class="fa fa-github fa-lg"></i> GitHub</a></li>
           <li><a href="http://linkedin.com/in/lynnety"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
@@ -27,20 +27,34 @@
 
     <div class="main-container cf">
 <div class="main-content">
-      <section>
-      <h1>Welcome!</h1>
-      <p>A long time ago I fired up my text-only web browser for the first time. I followed all the links. There was a menu item labeled "view source." "What is that?" I selected it and the bones of the page I was viewing were revealed to me. "OK, I can do <em>this</em>."</p>
-      <p>You can still find my first website if you use the wayback machine: <a href="https://web.archive.org/web/19961018085715/http://www.arthritis.org/">don't look</a>. We thought it was pretty cool.</p>
-      <p>Over the years, I have written about CSS, Flash, SVG and more. I used to keep recipes on my site. It's all still around here on a hard drive.</p>
-      <p>These days, I am a certified (University of Washington) Ruby on Rails developer.</p>
-      <figure>
-        <img alt="Herculese" src="images/hercules.jpg" />
-        <figcaption>This is my dog.</figcaption>
-      </figure>
-    </section>
+  <section class="portfolio">
+  <h3>Xante</h3>
+    <h4>Business Cards</h4>
+    <p>Simple order form for business cards. Used employee database to populate manager dropdown. User was able to click on editable fields to change them. Form sent an email with a confirm link to the manager. Once confirmed, the cards were sent to the production queue.</p>
+        <figure>
+          <img alt="Business Cards image 1" src="images/portfolio/xante/intranet-business-cards.png" />
+        </figure>
+    <h4>Production Queue</h4>
+    <p>Application for Marketing Production Queue. Jobs for sales samples, tech support tests, in-house documents, etc. Each product specialist could view his own job queue. Jobs could be transferred. Status and notes could be tracked</p>
+        <figure>
+          <img alt="Production Queue image 1" src="images/portfolio/xante/intranet-job-queue.png" />
+        </figure>
+</section>
+<section class="portfolio">
+  <h3>United States Sports Academy</h3>
+    <h4>Home Page</h4>
+    <p>This is a screen capture from the Wayback Machine. Page looked better than this. Featured RSS feeds, recent news, careers, information for students and publications.</p>
+        <figure>
+          <img alt="Home Page image 1" src="images/portfolio/unitedstatessportsacademy/home-page.png" />
+            <figcaption>It really didn't look this bad!</figcaption>
+        </figure>
+    <h4>The Sport Journal</h4>
+    <p>Home page for The Sport Journal. This was a quarterly publication. Entirely data-driven. I archived all past issues using an SQL Server database and html partials.</p>
+        <figure>
+          <img alt="The Sport Journal image 1" src="images/portfolio/unitedstatessportsacademy/home-page-sport-journal.png" />
+        </figure>
+</section>
 
-
-      
 </div>
 
     <div class="aux-content cf">
@@ -83,14 +97,6 @@
         </ul>
       </aside>
       
-      <aside class="well">
-        <figure>
-          <img alt="Waiting for the Replacements" src="images/echostage.jpg" />
-          <figcaption>At a 2015 Replacements show in DC.</figcaption>
-        </figure>
-
-      </aside>
-
     </div>
   </div>
 
