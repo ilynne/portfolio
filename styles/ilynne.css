@@ -254,7 +254,7 @@ figcaption {
 .main-container {
   padding: 1rem;
   margin: auto;
-  max-width: 55rem;
+  max-width: 900px;
   padding-bottom: 0;
 }
 @media only screen and (max-width: 479px) {
@@ -264,7 +264,7 @@ figcaption {
 }
 .main-content {
   float: left;
-  width: 75%;
+  max-width: 75%;
   padding-right: 1rem;
 }
 .main-content section {
@@ -323,6 +323,9 @@ figcaption {
     padding: 0;
     margin-bottom: 0.5rem;
   }
+}
+.portfolio img {
+  border: 1px solid #e7e7e7;
 }
 /* callout boxes
 ---------- */
